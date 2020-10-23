@@ -18,7 +18,7 @@ const options = {
 
 rl.question("Enter a domain to lookup: ", function(thedns) {
     dns.lookup(thedns, options, (err, address, family) =>
-    console.log('address: %j family: IPv%s', address, family));
+    console.log('IP ADRESS: %j FAMILY: IPv%s', address, family));
     rl.close();
     
 });
