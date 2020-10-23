@@ -6,5 +6,6 @@ A CLI domain name lookup tool
 
     https://nodejs.org/docs/latest-v13.x/api/dns.html#dns_dns_lookup_hostname_options_callback
     
-    
+#### Please Note: 
+    you must have Node JS installed
     
